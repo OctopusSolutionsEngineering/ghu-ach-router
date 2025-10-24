@@ -3,7 +3,7 @@ kind: Application
 metadata:
   name: ach-router-development
   annotations:
-    argo.octopus.com/project: "ACH Router"
+    argo.octopus.com/project: "ach-router"
     argo.octopus.com/environment: "development"
 spec:
   project: default
