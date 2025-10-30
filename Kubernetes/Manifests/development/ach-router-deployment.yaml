@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: ach-router
-          image: octopussolutionsengineering/ghu-ach-router:25.10.30162137
+          image: octopussolutionsengineering/ghu-ach-router:25.10.30172023
           ports:
             - name: http-route
               containerPort: 80
