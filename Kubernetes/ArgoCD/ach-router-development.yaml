@@ -5,6 +5,7 @@ metadata:
   annotations:
     argo.octopus.com/project: "ach-router"
     argo.octopus.com/environment: "development"
+    argo.octopus.com/tenant: "_internal"
 spec:
   project: default
   source:
