@@ -14,7 +14,7 @@ spec:
      path: Kubernetes/Manifests/production-canada
   destination:
     server: https://kubernetes.default.svc
-    namespace: production
+    namespace: production-canada
   syncPolicy:
     automated:  
       prune: true

@@ -14,7 +14,7 @@ spec:
      path: Kubernetes/Manifests/production-uk
   destination:
     server: https://kubernetes.default.svc
-    namespace: production
+    namespace: production-uk
   syncPolicy:
     automated:  
       prune: true

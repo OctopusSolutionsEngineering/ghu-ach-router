@@ -14,7 +14,7 @@ spec:
      path: Kubernetes/Manifests/production-brazil
   destination:
     server: https://kubernetes.default.svc
-    namespace: production
+    namespace: production-brazil
   syncPolicy:
     automated:  
       prune: true

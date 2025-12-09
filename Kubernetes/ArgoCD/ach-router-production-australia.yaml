@@ -14,7 +14,7 @@ spec:
      path: Kubernetes/Manifests/production-australia
   destination:
     server: https://kubernetes.default.svc
-    namespace: production
+    namespace: production-australia
   syncPolicy:
     automated:  
       prune: true

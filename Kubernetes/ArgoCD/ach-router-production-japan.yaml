@@ -14,7 +14,7 @@ spec:
      path: Kubernetes/Manifests/production-japan
   destination:
     server: https://kubernetes.default.svc
-    namespace: production
+    namespace: production-japan
   syncPolicy:
     automated:  
       prune: true

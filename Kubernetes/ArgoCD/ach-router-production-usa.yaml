@@ -14,7 +14,7 @@ spec:
      path: Kubernetes/Manifests/production-usa
   destination:
     server: https://kubernetes.default.svc
-    namespace: production
+    namespace: production-usa
   syncPolicy:
     automated:  
       prune: true

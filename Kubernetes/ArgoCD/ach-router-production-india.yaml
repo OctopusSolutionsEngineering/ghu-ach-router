@@ -14,7 +14,7 @@ spec:
      path: Kubernetes/Manifests/production-india
   destination:
     server: https://kubernetes.default.svc
-    namespace: production
+    namespace: production-india
   syncPolicy:
     automated:  
       prune: true
