@@ -18,9 +18,3 @@ spec:
           ports:
             - name: http-route
               containerPort: 80
-          env:
-            - name: DATABASE_SERVER
-            - value "test-internal-db"
-          env:
-            - name: DATABASE_NAME
-            - value "ach-router"
